@@ -11,7 +11,7 @@ try:
 
     if data.get('update_needed'):
         print("[SQLOptimizer] I starting updating automaticly!")
-        os.system("pip install git+https://gitlab.com/rappada/sqloptimizeraware")
+        os.system("pip install git+https://github.com/rappada/sqloptimizer")
     elif not data.get('update_needed'):
         pass
     else:
